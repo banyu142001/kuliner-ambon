@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  margin-left: 50px;
+}
+.hero {
+  background-color: salmon;
+  margin-top: 55px;
+  background-image: url(asset/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.panel {
+  width: 50%;
+  background-color: #0000001e;
+  min-height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+.panel h2 {
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  font-size: 70px;
+  text-shadow: 2px 2px #000;
+  font-weight: bold;
+  z-index: 1;
+}
+.panel p {
+  color: #fff;
+}
+.panel button {
+  color: #fff;
+  background-color: #000;
+}
+.c-card2 {
+  width: 450px;
+}
+.c-col .card {
+  width: 330px;
+  background-color: #00000088;
+  min-height: 206px;
+  color: #fff;
+}
+.card-text {
+  font-size: 13px;
+}
+.c-col {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+.img-card {
+  height: 100%;
+  object-fit: cover;
+}
+.navbar {
+  background-color: #ffc444;
+}
+.nav-link {
+  color: #fff;
+}
+/* responsive breakpoint */
+@media screen and (max-width: 576px) {
+  .panel {
+    width: 90%;
+    background-color: #0000001e;
+    min-height: 300px;
+    border-radius: 10px;
+    margin-top: -200px;
+    padding: 0 10px;
+  }
+  .panel button {
+    width: 100px;
+  }
+  .panel h2 {
+    font-family: "Kaushan Script", cursive;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px #000;
+  }
+  .panel p {
+    font-size: 14px;
+  }
+  .panel button {
+    width: 90%;
+    padding: 2px;
+    margin-top: 30px;
+  }
+  .c-col {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+  }
+  .c-col .card {
+    width: 300px;
+  }
+  .c-col .card img {
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .modal-dialog {
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+}
